@@ -30,10 +30,8 @@
 	Faster R-CNNは物体認識の領域を検索する際に2400回ものボックスを検索することで候補領域を指定した
 	その候補領域の抽出を適応的にした
 
- 
 10. “Real time  Action  Recognition with  Enhanced Motion  Vector CNNs”, in CVPR, 2016
 	オプティカルフローの高速化, 精度をほんの少し犠牲にしているが, FPSを飛躍的に向上させている.
-
 
 11. "Robust Kernel Estimation with Outliers Handling for Image Deblurring", in CVPR, 2016
 	カメラ撮影時に発生するブレの修正(補正)
