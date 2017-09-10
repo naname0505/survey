@@ -1,0 +1,48 @@
+1. "Unrolling the Shutter: CNN to Correct Motion Distortions”, in CVPR Oral, 2017
+	ローリングシャッター現象の改善, 行方向のズレを学習して改善
+
+2. "Universal adversarial perturbations”, in CVPR, 2017. (oral) 
+	deep Xplorer に似ている
+	騙しやすいネットワークを構築
+
+3. "FC4: Fully Convolutional Color Constancy with Confidence-weighted Pooling”, in CVPR, 2017. 
+	画像中の照明色を推定して証明による変化をなくす
+
+4. “Deep Image Matting”, in CVPR, 2017. (oral) 
+	DNNを用いた背景除去の性能アップ
+	重み付けを調整することで背景を除去する
+
+5. “Disentangled Representation Learning GAN for Pose-Invariant Face Recognition”, in CVPR, 2017. (oral) 
+	一枚の顔の入力画像から角度の違う人の顔をGANで生成する
+
+6. “Making Deep Neural Networks Robust to Label Noise: a LossCorrection Approach”, in CVPR, 2017.
+	ラベル付けにノイズが乗っていた時でも正確に学習する
+	(ノイズに対してロバストなネットワークの構築)
+
+7. “Learning Video Object Segmentation from Static Images”, in CVPR Spotlight, 2017. 
+	動画内のの物体の注目領域マスクを追跡
+
+8. “Optical  Flow with  Semantic  Segmentation and  Localized  Layers”, in CVPR ,2016.
+	ある程度領域分割しておいた画像に対してのOpticalFlowを
+	実行することで移動物体の認識率向上
+
+9. "Adaptive  Object  Detection  Using  Adjacency and Zoom  Prediction”, CVPR, 2016
+	Faster R-CNNは物体認識の領域を検索する際に2400回ものボックスを検索することで候補領域を指定した
+	その候補領域の抽出を適応的にした
+
+ 
+10. “Real time  Action  Recognition with  Enhanced Motion  Vector CNNs”, in CVPR, 2016
+	オプティカルフローの高速化, 精度をほんの少し犠牲にしているが, FPSを飛躍的に向上させている.
+
+
+11. "Robust Kernel Estimation with Outliers Handling for Image Deblurring", in CVPR, 2016
+	カメラ撮影時に発生するブレの修正(補正)
+
+12. "Image Deblurring Using Smartphone Inertial Sensors",in CVPR, 2016
+	スマートフォン慣性センサを使用した画像のぼけ補正
+
+13. "A Comparative Study for Single Image Blind Deblurring", in CVPR, 2016
+	ブレ補正の論文は基本的に正常な画像を持ってきてそれにブレ処理を
+	かけて人工的に生成しているが, それを実際に撮影した際にぶれた画像を
+	使用することで本当に今までの提案手法が有用であるかを検証した
+
