@@ -1,6 +1,7 @@
 1. "Unrolling the Shutter: CNN to Correct Motion Distortions”, in CVPR Oral, 2017.
 --challenge[141]
-	ローリングシャッター現象の改善, 行方向のズレを学習して改善
+ローリングシャッター現象の改善, 行方向のズレを学習して改善
+	
 --電車に乗っている時に写真を撮影すると歪んで写ってしまう現象の改善方法.
   既存の手法は複数枚の写真を使用, シーン固有の補正をかけている.
 
@@ -16,8 +17,9 @@
 
 2. "Universal adversarial perturbations”, in CVPR, 2017. (oral) 
 --challenge[5]
-	deep Xplorer に似ている
-	騙しやすいネットワークを構築
+deep Xplorer に似ている
+騙しやすいネットワークを構築
+
 --最先端のディープニューラルネットワーク分類器を考えると、自然画像が高い確率で
   誤分類される原因となる普遍的な（画像に依存しない）摂動ベクトルと非常に
   小さな摂動ベクトル(pertirbation)が存在している。(摂動はかき乱す動き)
@@ -32,55 +34,56 @@
 
 3. "FC4: Fully Convolutional Color Constancy with Confidence-weighted Pooling”, in CVPR, 2017. 
 --challenge[8]
-	画像中の照明色を推定して証明による変化をなくす
+画像中の照明色を推定して証明による変化をなくす
+
 
 4. “Deep Image Matting”, in CVPR, 2017. (oral) 
 --challenge[21]
-	DNNを用いた背景除去の性能アップ
-	重み付けを調整することで背景を除去する
+DNNを用いた背景除去の性能アップ
+重み付けを調整することで背景を除去する
+
 
 5. “Making Deep Neural Networks Robust to Label Noise: a LossCorrection Approach”, in CVPR, 2017.
 --challenge[72]
-	ラベル付けにノイズが乗っていた時でも正確に学習する
-	(ノイズに対してロバストなネットワークの構築)
+ラベル付けにノイズが乗っていた時でも正確に学習する
+(ノイズに対してロバストなネットワークの構築)
+
 
 6. “Learning Video Object Segmentation from Static Images”, in CVPR Spotlight, 2017. 
 --challenge[92]
-	動画内のの物体の注目領域マスクを追跡
+動画内のの物体の注目領域マスクを追跡
 
 --- 2016 ---
 
 7. “Optical  Flow with  Semantic  Segmentation and  Localized  Layers”, in CVPR ,2016.
 --challenge [10]
-	ある程度領域分割しておいた画像に対してのOpticalFlowを
-	実行することで移動物体の認識率向上
+ある程度領域分割しておいた画像に対してのOpticalFlowを
+実行することで移動物体の認識率向上
+
 
 8. "Adaptive  Object  Detection  Using  Adjacency and Zoom  Prediction”, CVPR, 2016
 --challenge[23]
-	Faster R-CNNは物体認識の領域を検索する際に2400回ものボックスを検索することで
-	候補領域を指定することでその候補領域の抽出を適応的にした
+Faster R-CNNは物体認識の領域を検索する際に2400回ものボックスを検索することで
+候補領域を指定することでその候補領域の抽出を適応的にした
+
 
  
 9. “Real time Action Recognition with  Enhanced Motion  Vector CNNs”, in CVPR, 2016
 --challenge[67]難
-	オプティカルフローの高速化, 精度をほんの少し犠牲にしているが,
-	 FPSを飛躍的に向上させている.
-<<<<<<< HEAD
-
-
-
-=======
-
-
-
->>>>>>> e1306d60a4ee75de0b03bb85a5aa307b18f1c1ab
+オプティカルフローの高速化, 精度をほんの少し犠牲にしているが,
+FPSを飛躍的に向上させている.
+	 
+	 
 10. "Robust Kernel Estimation with Outliers Handling for Image Deblurring", in CVPR, 2016
-	カメラ撮影時に発生するブレの修正(補正)
+カメラ撮影時に発生するブレの修正(補正)
+
 
 11. "Image Deblurring Using Smartphone Inertial Sensors",in CVPR, 2016
-	スマートフォン慣性センサを使用した画像のぼけ補正
+スマートフォン慣性センサを使用した画像のぼけ補正
+
 
 12. "A Comparative Study for Single Image Blind Deblurring", in CVPR, 2016
-	ブレ補正の論文は基本的に正常な画像を持ってきてそれにブレ処理を
-	かけて人工的に生成しているが, それを実際に撮影した際にぶれた画像を
-	使用することで本当に今までの提案手法が有用であるかを検証した
+ブレ補正の論文は基本的に正常な画像を持ってきてそれにブレ処理を
+かけて人工的に生成しているが, それを実際に撮影した際にぶれた画像を
+使用することで本当に今までの提案手法が有用であるかを検証した
+
